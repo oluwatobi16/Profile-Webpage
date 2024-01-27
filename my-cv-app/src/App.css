@@ -1,18 +1,65 @@
 /* src/App.css */
 .App {
   text-align: center;
+  background-color: #1a1a1a; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px;
 }
 
 .profile-pic {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 10px; /* Clean square border-radius */
+  margin-top: 20px;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header h1,
+.header p {
+  margin: 10px 0;
 }
 
 .cv-section {
-  margin: 20px 0;
+  margin: 30px 0;
+  padding: 20px;
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+  background-color: #2a2a2a; /* Darker background color for sections */
 }
 
-footer {
-  margin-top: 30px;
+.cv-section h2 {
+  color: #61dafb;
 }
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  background-color: #61dafb;
+  color: white;
+  border-radius: 5px;
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+}
+
+.banner {
+  background-color: #61dafb;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Add more styling as needed */
