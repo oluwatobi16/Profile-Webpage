@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import profilePic from './profilepic.jpg'; // Replace with your profile picture
+import profilePic from './profilepic.jpg';
 
 function App() {
   return (
@@ -16,10 +16,7 @@ function App() {
         <p>
           Committed to providing innovative and efficient solutions to different problems.
         </p>
-        <p>
-          Specifically excelling in solving problems by implementing and programming effective
-          algorithms.
-        </p>
+        <p>Specifically excelling in solving problems by implementing and programming effective algorithms.</p>
       </header>
 
       <section className="cv-section">
@@ -49,8 +46,7 @@ function App() {
           helped clean the store after closing.
         </p>
         <p>
-          Handled money and customer requests at the till while ensuring smooth and efficient
-          checkouts.
+          Handled money and customer requests at the till while ensuring smooth and efficient checkouts.
         </p>
         <p>Web Development</p>
         <p>
@@ -77,8 +73,11 @@ function App() {
         </ul>
       </section>
 
-      <footer>
-        <p>Contact: oluwatobi.afolabi@yahoo.co.uk</p>
+      <footer className="footer">
+        <div className="banner">
+          <h2>Contact</h2>
+        </div>
+        <p>Email: oluwatobi.afolabi@yahoo.co.uk</p>
       </footer>
     </div>
   );
